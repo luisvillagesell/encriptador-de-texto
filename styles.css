@@ -28,3 +28,30 @@ input {
     border-radius: 5px;
     border: 1px solid #ccc;
 }
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+button:hover {
+    background-color: #45a049;
+    font-size: 17px;
+}
+
+.result-container {
+    background-color: #c5e4c7;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#result {
+    font-size: 18px;
+    color: #333;
+}
+
