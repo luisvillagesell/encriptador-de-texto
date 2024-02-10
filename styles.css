@@ -30,18 +30,22 @@ input {
 }
 
 button {
-    padding: 10px 20px;
+    width: 36.5%;
+    padding: 15px 0px;
     border: none;
+    font-size: 18px;
+    font-weight: bold;
     border-radius: 5px;
     background-color: #4caf50;
     color: #fff;
     cursor: pointer;
-    transition: background-color 0.5s;
+    transition: background-color 1s;
 }
 
 button:hover {
     background-color: #45a049;
-    font-size: 17px;
+    font-size: 20px;
+    transform: scale(1.1);
 }
 
 .result-container {
