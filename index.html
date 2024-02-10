@@ -9,20 +9,18 @@
 <body>
   <div class="container">
     <h1>Encriptador de Texto</h1>
-    <form>
-        <div class="input-container">
-            <input type="text" id="originalText" placeholder="Ingresa el texto...">
-            <br>
-            <button onclick="encrypt()">Encriptar</button>
-            <button onclick="decrypt()">Desencriptar</button>
-          </div>
-          <div class="result-container">
-            <p id="result"></p>
-          </div>
-          <button onclick="copyResult()">Copiar</button>
-    </form>
+    <div class="input-container">
+      <input type="text" id="originalText" placeholder="Ingresa el texto...">
+      <button onclick="encrypt()">Encriptar</button>
+      <button onclick="decrypt()">Desencriptar</button>
+    </div>
+    <div class="result-container">
+      <p id="result"></p>
+    </div>
+    <button onclick="copyResult()">Copiar Resultado</button>
   </div>
 
   <script src="app.js"></script>
 </body>
 </html>
+
