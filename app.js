@@ -30,3 +30,4 @@ function encrypt() {
     document.body.removeChild(tempInput);
     alert("¡Resultado copiado al portapapeles!");
   }
+  
